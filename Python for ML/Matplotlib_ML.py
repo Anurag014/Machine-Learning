@@ -56,10 +56,10 @@ ax = fig.add_axes([0, 0, 1, 1])    # As we have created empty figure we need to 
                                    # axes first two 0's define origin and two 1's define height and width
 languages = ['English', 'French', 'Spanish', 'Latin', 'German']
 people = [100, 50, 150, 40, 70]
-'''ax.bar(languages, people)          # Plots the bar graph
+ax.bar(languages, people)          # Plots the bar graph
 plt.xlabel('LANGUAGES')
 plt.ylabel('PEOPLES')
-plt.show()'''
+plt.show()
 
                                     # Pie chart
 
